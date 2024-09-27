@@ -1667,6 +1667,13 @@ const [cantHelp,setCantHelp]=useState(false)
                         width:20vw;
                       }
                     }
+
+                    @media(max-width:700px){
+                      #info-btn{
+                        width:50vw;
+                      }
+                      
+                    }
                     
                 `}
             </style>
