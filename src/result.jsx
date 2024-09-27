@@ -1663,7 +1663,7 @@ const [cantHelp,setCantHelp]=useState(false)
                       #info-btn{
                         width:30vw;
                       }
-                      .card{
+                      .card, .non-sel{
                         width:20vw;
                       }
                     }
@@ -1680,7 +1680,7 @@ const [cantHelp,setCantHelp]=useState(false)
                       .gradient{
                         margin-top:5vh !important; 
                       }
-                      .card{
+                      .card, .non-sel{
                         width:44vw !important;
                       }
                       #info-btn{
