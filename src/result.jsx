@@ -1691,6 +1691,9 @@ const [cantHelp,setCantHelp]=useState(false)
                           left:0 !important;
                           width:80vw;
                         }
+                          .stats button{
+                            width:30vw;
+                          }
                     }
                     
                 `}
