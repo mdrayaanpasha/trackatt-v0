@@ -176,31 +176,9 @@ nav button {
                     <li><a href="./few">Try Now</a></li>
                    
                 </ul>
-                <button id="openDialog" onClick={openDialog} className="nav-button">
-                    <i className="fa fa-bars" aria-hidden="true"></i>
-                </button>
+                
             </nav>
-            {dialogOpen && (
-                <dialog id="myDialog" open>
-                    <div className="nav-d">
-                        <button id="closeDialog" onClick={closeDialog} className="close-button">❌</button>
-                    </div>
-                    <hr />
-                    <h1><a href="./index.html" className="dialog-link">🏠 Home</a></h1>
-                    <hr />
-                    <h1><a href="./c.html" className="dialog-link"> 👩‍💻🧑‍💻 C Classes</a></h1>
-                    <hr />
-                    <h1><a href="./fc.html" className="dialog-link">🖥️ FC Classes</a></h1>
-                    <hr />
-                    <h1><a href="./unix.html" className="dialog-link">🤖 UNIX Classes</a></h1>
-                    <hr />
-                    <h1><a href="./math.html" className="dialog-link">➗ Math Classes</a></h1>
-                    <hr />
-                    <h1><a href="./GE.html" className="dialog-link">🤹‍♂️ GE Classes</a></h1>
-                    <hr />
-                    <h1><a href="./2lang.html" className="dialog-link">📔 2nd Lang Classes</a></h1>
-                </dialog>
-            )}
+           
         </>
     );
 }
