@@ -1681,7 +1681,7 @@ const [cantHelp,setCantHelp]=useState(false)
                         margin-top:5vh !important; 
                       }
                       .card{
-                        width:50vw !important;
+                        width:44vw !important;
                       }
                       #info-btn{
                         width:80vw;
