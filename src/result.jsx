@@ -1687,6 +1687,7 @@ const [cantHelp,setCantHelp]=useState(false)
                         width:80vw;
                       }
                         .stat-info{
+                        left:0 !important;
                           width:80vw;
                         }
                     }
