@@ -1672,7 +1672,9 @@ const [cantHelp,setCantHelp]=useState(false)
                       #info-btn{
                         width:50vw;
                       }
-                      
+                      .info{
+                        flex-wrap:wrap;
+                      }
                     }
                     
                 `}
