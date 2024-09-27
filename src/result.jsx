@@ -1682,12 +1682,13 @@ const [cantHelp,setCantHelp]=useState(false)
                       }
                       .card, .non-sel{
                         width:44vw !important;
+                        
                       }
                       #info-btn{
                         width:80vw;
                       }
-                        .stat-info{
-                        left:0 !important;
+                        .stats{
+                          left:0 !important;
                           width:80vw;
                         }
                     }
