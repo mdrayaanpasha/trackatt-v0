@@ -1659,6 +1659,15 @@ const [cantHelp,setCantHelp]=useState(false)
                    
 
                 }
+                    @media(max-width:1100px){
+                      #info-btn{
+                        width:30vw
+                      }
+                      .card{
+                        width:20vw;
+                      }
+                    }
+                    
                 `}
             </style>
             <Nav />
