@@ -1676,6 +1676,17 @@ const [cantHelp,setCantHelp]=useState(false)
                         flex-wrap:wrap;
                       }
                     }
+                    @media(max-width:500px){
+                      .gradient{
+                        margin-top:5vh !important; 
+                      }
+                      .card{
+                        width:50vw !important;
+                      }
+                      #info-btn{
+                        width:80vw;
+                      }
+                    }
                     
                 `}
             </style>
